@@ -1,0 +1,344 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{ #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\huge \scshape Anahita Azam} \\ \vspace{5pt}
+    \small 
+    Toronto, Canada $|$ 
+    \href{mailto:x@x.com}{\uline{ana.azam@alumni.utoronto.ca}} $|$ 
+    \href{https://www.linkedin.com/in/anahita-azam/} {\uline{linkedin}} $|$
+    \href{https://orcid.org/0000-0001-5109-4455}{\uline{orcid}} $|$
+    \href{https://github.com/anaazam}{\uline{github}}
+\end{center}
+
+%-----------OBJECTIVE-----------
+\section{Objective}
+Leverage computational social science methods, including AI and data science, to explore socio-economic and political dynamics and address public policy challenges in the Middle East and South Asia, in collaboration with Professor Fotini Christia at MIT's Institute for Data, Systems, and Society.
+  
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KU Leuven \small $|$ Faculty of Economics and Business}{Leuven, Belgium}
+      {Master of Science in Economics}{Class of 2020}
+    \resumeItemListStart
+        \resumeItem{\textbf{Graduated magna cum laude}}
+        \vspace{2pt}
+        \resumeItem{Thesis: The internet and underground markets: estimating prostitution supply in the Low Countries}
+        
+        \vspace{2pt}
+        \resumeItem{Relevant coursework: Econometric Methods and Models, Advanced Applied Econometrics, Advanced Labour Economics, Welfare Inequality \& Poverty, Macroeconomics, Microeconomics}
+        \resumeItemListEnd
+    \vspace{3pt}
+    \resumeSubheading
+      {University of Toronto \small  $|$ Rotman School of Management}{Toronto, Canada}
+      {Bachelor of Commerce, Finance \& Economics Specialist }{Class of 2018}
+    \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{\textbf{Graduated with distinction}}
+
+        \vspace{3pt}
+        \resumeItem{William Waters Commerce \& Finance Award (\$3,000) $|$ Brookfield Peter F. Bronfman Commerce Award (\$2,000)}
+        \resumeItem{University of Toronto Advanced Planning for Students Program (\$24,000) $|$ Summer Abroad Bursary (\$3,000)}
+        
+        \vspace{3pt}
+        \resumeItem{Strategy in the European Context, Masaryk University $|$ Past and Present in Siena and Italy, University of Siena}
+        \resumeItem{Gamma Phi Beta Scholarship Chair, Commerce Without Borders Manager of Corporate Relations}
+        
+        \vspace{3pt}
+        \resumeItem{Relevant coursework: Calculus and Linear Algebra, Data Analysis and Applied Econometrics, Economic History: Institutions, Growth and Inequality, Economic Analysis of Law, International Monetary Economics, Financial Trading Strategies, Fixed Income Securities, Capital Market Theory}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PEER-REVIEWED PAPERS-----------
+\section{Peer-Reviewed Articles}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     Azam, A., Hendrickx, J., Adriaenssens, S. (2024). \href{https://doi.org/10.1007/s11135-024-01966-y}{\normalsize Estimating the prostitution population using online data: a single-registration approach for the Netherlands and Belgium.} \textit{Quality \& Quantity.}
+    }}
+    \vspace{-8pt} 
+ \end{itemize}
+ 
+        \resumeItemListStart
+        \resumeItem{Cited by the Union of Sex Workers Organised for Independence for a meeting with Brussels policymakers}
+        \vspace{-10pt} 
+        \resumeItemListEnd 
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+    Azam, A., Adriaenssens, S., Hendrickx, J. (2020). \href{https://doi.org/10.1080/14616696.2020.1828978}{\normalsize How Covid-19 affects prostitution markets in the Netherlands and Belgium: dynamics and vulnerabilities under a lockdown.} \textit{European Societies} \textit{23}(sup1), S478–S494. 
+    }}
+ \end{itemize}
+
+ %-----------PUBLICATIONS-----------
+\section{Statistics Canada Publications}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     Azam, A., Wang, S. (2023). \href{https://www150.statcan.gc.ca/n1/en/catalogue/62F0014M2023004}{Corporate profitability and inflation: 2017 to 2022.} \textit{Prices Analytical Series.}
+    }}
+    \vspace{-8pt} 
+ \end{itemize}
+ 
+        \resumeItemListStart
+        \resumeItem{Referenced by the Assistant Chief Statistician for the House of Commons’ Committee on Industry and Technology}
+        \vspace{-10pt} 
+        \resumeItemListEnd 
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+    Azam, A. (2022). \href{https://www150.statcan.gc.ca/n1/pub/62f0014m/62f0014m2022005-eng.htm}{Technical Guide for the Building Construction Price Index.} \textit{Prices Analytical Series.}
+    }}
+ \end{itemize}
+
+  %-----------WORKING PAPERS-----------
+\section{Working Papers}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     Azam, A., Adriaenssens, S., Hendrickx, J. (2022). Evidence of compounded vulnerability among transgender sex workers: an intersectional analysis of risk-taking.
+    }}
+    \vspace{-8pt} 
+ \end{itemize}
+ 
+        \resumeItemListStart
+        \resumeItem{Explores how sources of vulnerability, such as gender, age, ethnicity and economic status, intersect to influence socio-economic outcomes in marginalized communities}
+        \vspace{-10pt} 
+        \resumeItemListEnd 
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     Azam, A. (2021). Degree or skills—what most impacts job automatability?
+    }}
+    \vspace{-8pt} 
+ \end{itemize}
+ 
+        \resumeItemListStart
+        \resumeItem{Using econometric models to investigate job susceptibility to automation for a wide range of qualifications}
+        \vspace{-10pt} 
+        \resumeItemListEnd 
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \vspace{2pt}
+    \resumeSubheading
+      {Economist}{Feb. 2021 -- Present}
+      {Statistics Canada, Housing \& Construction Prices}{Toronto, Canada}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{Developed regular analytical dashboards and reports on housing and construction price trends, provided actionable insights that informed policy decisions and industry analyses}
+        \resumeItem{Led the automation of price index production using R, GitLab pipelines, and custom data storage solutions, reduced processing time by 10 business days and enhanced the efficiency of government statistical reporting}
+        \resumeItem{Managed the negotiation of and secured data acquisition agreements with a major rental listings provider, ensured compliance with StatCan's data governance and secured timely access to critical housing data for public policy use}
+        \resumeItem{Spearheaded the overhaul of the Construction Contractors Survey, expanded data collection to over 800 quarterly respondents, improved economic activity coverage and published detailed, disaggregated data}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Research Assistant}{Feb 2020 -- Sept 2020}
+      {KU Leuven, Faculty of Economics \& Business}{Brussels, Belgium}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{Conducted interdisciplinary research on labour supply in hidden markets, demography, integrating social science theories and econometric models to analyze socio-economic data from demographic and health studies}
+        \resumeItem{Designed and implemented web scraping tools to collect large-scale data (25,000 online reviews, 11,000 user profiles), streamlined data collection for social research projects focused on vulnerable populations}
+        \resumeItem{Co-authored a 5,000-word research article for peer review and subsequent publication in a leading journal}
+    \resumeItemListEnd
+
+    \vspace{2pt}
+    \resumeSubheading
+      {Hedge Fund Services Administrator}{Jul 2018 -- Mar 2019}
+      {The Citco Group Limited}{Toronto, Canada}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{Verified and processed over \$1BN in hedge fund trades monthly, gained experience with complex financial instruments and regulatory compliance to ensure transparency and accuracy in financial reporting}
+        \resumeItem{Worked directly with fund managers to produce customized investor reports and regulatory documents that informed strategic investment decisions}
+      \resumeItemListEnd
+
+    \vspace{2pt}
+    \resumeSubheading
+      {Finance Assistant}{May 2016 -- Aug 2016}
+      {Ontario Public Service, Ministry of Health}{Toronto, Canada}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{Enhanced financial reporting efficiency by automating reconciliation, reduced processing time by 4 business days}
+        \resumeItem{Conducted variance analysis on public account expenditures and investigated \$25BN in discrepancies}
+      \resumeItemListEnd
+
+    \vspace{2pt}
+    \resumeSubheading
+      {Financial Services Representative}{Jul 2018 -- Mar 2019}
+      {TD Canada Trust}{Toronto, Canada}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{Provided insights on financial markets, lending trends, and in-depth bank product knowledge to +1000 personal and commercial banking clients, helped guide decisions for banking services, while pursuing full-time academic studies at the University of Toronto}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------PRESENTATIONS-----------
+\section{Presentations}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{ 
+     \normalsize {Canadian Economics Association Conference 2024 $|$ {The role of profits in  post-pandemic inflation}}
+    }}
+    \vspace{-8pt} 
+ \end{itemize}
+ 
+        \resumeItemListStart
+        \resumeItem{Discussed the economic implications of inflation with a focus on how corporate profitability evolved for key Canadian industries during the pandemic-related economic decline and recovery.}
+        \vspace{-10pt} 
+        \resumeItemListEnd 
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+    \normalsize {European Population Conference 2022 $|$ \href{https://epc2022.eaps.nl/abstracts/210086}{Issues in health data analysis} }
+    }}
+\vspace{-8pt} 
+\end{itemize}
+ 
+        \resumeItemListStart
+        \resumeItem{Presented research findings on the role of data science in addressing vulnerabilities among hidden populations.}
+        \vspace{-10pt} 
+        \resumeItemListEnd 
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     \textbf{Languages}{: Proficient - English, Urdu $|$ Intermediate - French, Punjabi, Sindhi} \\
+     \vspace{3pt}
+     \textbf{Data Science}{: Causal Inference $|$ Hedonic Pricing $|$ Linear \& Logistic Regressions $|$ Webscraping} \\
+     \vspace{3pt}
+     \textbf{Programming}{: R (dyplr, tidyr, ggplot2, selenium, lubridate, shiny) $|$ Python (numpy, pandas, seaborn, matplotlib, plotly) $|$ Stata $|$ SQL $|$ Excel VBA} \\
+     \vspace{3pt}
+     \textbf{Tools}{: Git $|$ Jupyter Notebooks $|$ Azure Cloud Computing $|$ Microsoft Office $|$ Google Workspace} $|$ LaTeX \\
+     \vspace{3pt}
+     \textbf{Certifications}{: Canadian Securities Course (Level 1 \& 2) $|$ DataCamp (Data Scientist in R, Data Scientist in Python,  Data Analyst in SQL)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
